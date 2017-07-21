@@ -3,7 +3,7 @@
 
 This project contains instructions for building a Bot that connects to a Raspberry Pi device running the [Embedded Learning Library (ELL)](https://github.com/Microsoft/ELL) to recognize the content of images from web searches.
 
-ELL allows running full-fledged artificial neural networks on embedded devices (see article [Microsoft Research Shows Embedded AI on Bread-Crumb Sized Processor](https://winbuzzer.com/2017/06/30/microsoft-research-shows-embedded-ai-bread-crumb-sized-processor-xcxwbn/)).
+ ELL allows running full-fledged artificial neural networks on embedded devices (see article [Microsoft Research Shows Embedded AI on Bread-Crumb Sized Processor](https://winbuzzer.com/2017/06/30/microsoft-research-shows-embedded-ai-bread-crumb-sized-processor-xcxwbn/)).
 In this demo we use the [Darknet](https://pjreddie.com/darknet/imagenet/) open-source image classifier, trained to recognize 1000 object classes.
 
 ![Skype bot](images/skype.png)
@@ -11,6 +11,7 @@ In this demo we use the [Darknet](https://pjreddie.com/darknet/imagenet/) open-s
 ## License
 
 See [LICENSE.txt](LICENSE.txt).
+
 
 ## Code of conduct
 
@@ -25,6 +26,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 * A micro SD card for the Raspberry Pi
 * A wifi adapter for the Raspberry Pi (unless connected by wire)
 * A Windows or Linux computer with an SD slot
+* Python 2.x or 3.x with numpy and OpenCV
 
 ### Getting started
 
