@@ -66,7 +66,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
   sudo reboot
 ```
 
-* In Azure, create a Cognitive service of type "Bing Image Search" and copy the access key.
+* In Azure, create a Cognitive service of type "Bing Search API" and copy the access key.
 
 * Connect via RDP to the Raspberry Pi. Run the remoteDemo.py, passing the keys as environment variables, e.g.:
 ```bash
